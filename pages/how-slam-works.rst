@@ -27,3 +27,6 @@ Algorithms
 -----------
 
 * Various SLAM algorithms are implemented in the robot operating system (ROS) libraries, often used together with the Point Cloud Library.
+
+.. image:: ../_static/slam_algo.png
+  :width: 500
