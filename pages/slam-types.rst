@@ -1,12 +1,16 @@
 Types of SLAM
 ================
 
-Visual SLAM
--------------
+Visual SLAM (vSLAM)
+--------------------
 * Visual SLAM or vSLAM calculates the position and orientation of a device with respect to its surroundings while mapping the environment at the same time, using only visual inputs from a camera.   
 * It can be implemented at a low cost with relatively inexpensive cameras.
 * Cameras can be used to detect landmarks as well since they provide a large volume of information.
 * Landmark detection can also be combined with graph-based optimization, achieving flexibility in SLAM implementation.
+
+.. image:: ../_static/images/vslam.png
+  :width: 500
+  :alt: Visual SLAM Image
 
 Components of vSLAM
 ---------------------
