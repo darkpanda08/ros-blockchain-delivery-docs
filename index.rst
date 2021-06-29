@@ -10,11 +10,7 @@ Welcome to Package Delivery using Blockchain and ROS's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   pages/urdf
+   pages/slam
+   pages/multiple-robot-models
+   pages/teb-planner
