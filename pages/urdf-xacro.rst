@@ -8,6 +8,10 @@ URDF
 
 The Unified Robotic Description Format (URDF) is an XML file format used in ROS to describe all elements of a robot. These files are used by a ROS to tell the simulator what the robot actually looks like in real life. URDF specifies the kinematics, dynamic properties and other metadata of the robot.
 
+.. seealso::
+
+    More information can be found in `ROS Official Docs <http://wiki.ros.org/urdf>`_.
+    
 Limitations of URDF
 --------------------
 

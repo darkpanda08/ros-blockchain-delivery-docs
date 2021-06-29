@@ -7,4 +7,5 @@ SLAM is a technique used to build up a map within an environment while at the sa
     :caption: Contents:
     
     how-slam-works
-    slam-algorithms
+    slam-types
+    slam-applications
