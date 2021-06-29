@@ -1,2 +1,2 @@
-Teb Local Planner
+SLAM Algorithms
 ===============================================
