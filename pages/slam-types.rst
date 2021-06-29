@@ -8,6 +8,14 @@ Visual SLAM
 * Cameras can be used to detect landmarks as well since they provide a large volume of information.
 * Landmark detection can also be combined with graph-based optimization, achieving flexibility in SLAM implementation.
 
+Components of vSLAM
+---------------------
+* The architecture of a vSLAM system includes two main components: Front-end & Back-end
+* The front-end abstracts sensor data into models for estimation, while the back-end performs inference on the abstracted data produced by the front-end.
+
+.. image:: ../_static/images/vslam_components.png
+   :width: 600
+   :alt: Components of vSLAM Image
 
 LiDAR SLAM
 -----------
