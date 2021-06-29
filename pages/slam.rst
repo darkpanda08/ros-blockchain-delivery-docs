@@ -4,6 +4,7 @@ SLAM is a technique used to build up a map within an environment while at the sa
 
 .. toctree::
     :maxdepth: 2
-
+    :caption: Contents:
+    
     how-slam-works
     slam-algorithms
