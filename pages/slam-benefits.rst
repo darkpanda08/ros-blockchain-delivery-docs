@@ -8,5 +8,5 @@ Additionally, GPS doesn’t work indoors; it requires a line of sight to at 
 SLAM based technology overcomes these obstacles by cutting out GPS altogether.
 
 .. image:: ../_static/images/slam_indoor.jpg
-  :width: 700
+  :width: 500
   :alt: SLAM
