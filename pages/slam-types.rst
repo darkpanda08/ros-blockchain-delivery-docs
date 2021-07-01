@@ -10,16 +10,16 @@ It can be implemented at a low cost with relatively inexpensive cameras. Visual 
 
 Cameras can be used to detect landmarks as well since they provide a large volume of information. In addition, since cameras provide a large volume of information, they can be used to detect a landmarks (previously measured positions). Landmark detection can also be combined with graph-based optimization, achieving flexibility in SLAM implementation.
 
-Monocular SLAM is when vSLAM uses a single camera as the only sensor, which makes it challenging to define depth. 
+Monocular SLAM is when vSLAM uses a single camera as the only sensor, which makes it challenging to define depth. This can be solved by either detecting AR markers, checkerboards, or other known objects in the image for localization or by fusing the camera information with another sensor such as IMU, which can measure physical quantities such as velocity and orientation. 
 
 .. image:: ../_static/images/vslam.png
-  :width: 500
+  :width: 600
   :alt: Visual SLAM Image
 
 vSLAM typically tracks points of interest through successive camera frames to triangulate the 3D position of the camera, this information is then used to build a 3D map.  
 
 .. image:: ../_static/images/pcl-data.jpg
-  :width: 500
+  :width: 600
   :alt: Point Cloud Data
 
 Above image is the Point Cloud Data of RGB-D SLAM. It allows to quickly acquire colored 3D models of objects and indoor scenes with a hand-held Kinect-style camera. It provides a SLAM front-end based on visual features such as SURF or SIFT to match pairs of acquired images, and uses RANSAC to robustly estimate the 3D transformation between them.
@@ -41,13 +41,13 @@ The point clouds are not as finely detailed as images in terms of density and do
 Due to these challenges, localization for autonomous vehicles may involve fusing other measurement results such as wheel odometry, global navigation satellite system (GNSS), and IMU data.
 
 .. image:: ../_static/images/2d_slam.jpg
-  :width: 500
+  :width: 600
   :alt: 2D LiDAR SLAM
 
 For applications such as warehouse robots, where only indoor navigation is required and has many many obstacles, 2D lidar SLAM is commonly used.
 
 .. image:: ../_static/images/3d_slam.jpg
-  :width: 500
+  :width: 600
   :alt: 3D LiDAR SLAM
 
 SLAM using 3-D lidar point clouds can be used for UAVs and automated parking as it requires more data regading the terrain and environment.
