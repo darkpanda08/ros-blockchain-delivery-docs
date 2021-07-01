@@ -4,7 +4,7 @@ About Project
 Objective
 ***********
 
-To develop a ROS based system that will automate the process of picking up and delivering vaccines from one hospital to another.
+To develop a decentralized system that will automate the process of picking up and delivering vaccines from one hospital to another with ROS.
 
 
 Deliverables
