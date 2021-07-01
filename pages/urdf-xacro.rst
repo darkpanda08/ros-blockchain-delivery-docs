@@ -18,7 +18,7 @@ Limitations of URDF
 
 .. seealso::
 
-    More information can be found in `ROS Wiki URDF <http://wiki.ros.org/urdf>`_.
+    More information can be found in `ROS Wiki URDF <http://wiki.ros.org/urdf>`_
 
 
 XACRO
@@ -37,7 +37,7 @@ Why Xacro ?
 
 .. seealso::
 
-    More information can be found in `ROS Wiki Xacro <http://wiki.ros.org/xacro>`_.
+    More information can be found in `ROS Wiki Xacro <http://wiki.ros.org/xacro>`_
 
 
 How We Created 
