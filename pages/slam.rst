@@ -11,7 +11,3 @@ SLAM is a technique used to build up a map within an environment while at the sa
     slam-types
     slam-benefits
     slam-implementation
-
-.. image:: ../_static/images/slam_car.jpg
-    :width: 700
-    :alt: SLAM
