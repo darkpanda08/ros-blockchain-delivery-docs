@@ -1,5 +1,5 @@
 Applications of SLAM
-======================================
+######################
 
 * Self-Driving Cars
 * Mixed Reality Wearables
