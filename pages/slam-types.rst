@@ -47,7 +47,7 @@ Due to these challenges, localization for autonomous vehicles may involve fusing
 For applications such as warehouse robots, where only indoor navigation is required and has many many obstacles, 2D lidar SLAM is commonly used.
 
 .. image:: ../_static/images/3d_slam.jpg
-  :width: 600
+  :width: 550
   :alt: 3D LiDAR SLAM
 
 SLAM using 3-D lidar point clouds can be used for UAVs and automated parking as it requires more data regading the terrain and environment.
