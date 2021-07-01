@@ -41,7 +41,7 @@ The point clouds are not as finely detailed as images in terms of density and do
 Due to these challenges, localization for autonomous vehicles may involve fusing other measurement results such as wheel odometry, global navigation satellite system (GNSS), and IMU data.
 
 .. image:: ../_static/images/2d_slam.jpg
-  :width: 600
+  :width: 500
   :alt: 2D LiDAR SLAM
 
 For applications such as warehouse robots, where only indoor navigation is required and has many many obstacles, 2D lidar SLAM is commonly used.
