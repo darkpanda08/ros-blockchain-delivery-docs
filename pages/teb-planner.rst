@@ -8,4 +8,3 @@ The optimal trajectory is efficiently obtained by solving a sparse scalarized mu
 .. seealso::
 
     More information can be found in `ROS Wiki - Teb Local Planner <http://wiki.ros.org/teb_local_planner>`_
-

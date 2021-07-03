@@ -7,7 +7,7 @@ Welcome to Package Delivery using Blockchain and ROS's documentation!
 
    pages/about
    pages/urdf-xacro
-   pages/slam
    pages/multiple-robot-models
+   pages/slam
    pages/teb-planner
    pages/troubleshooting
