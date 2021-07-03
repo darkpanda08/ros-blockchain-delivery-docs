@@ -11,3 +11,4 @@ Welcome to Package Delivery using Blockchain and ROS's documentation!
    pages/slam
    pages/teb-planner
    pages/troubleshooting
+   pages/references
