@@ -21,14 +21,14 @@ From official ROS repositories:
 Setup for Navigation
 ---------------------
 
-In the move_base node in our launch file, we add the following lines:
+In the ``move_base`` node in our launch file, we add the following lines:
 
 .. code-block:: XML
 
     <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
     <param name="controller_frequency" value="10.0" />
 
-Now update the base_local_planner_params.yaml configuration file with the parameters of the teb_local_planner package as given.
+Now update the ``base_local_planner_params.yaml`` configuration file with the parameters of the teb_local_planner package as given.
 
 .. code-block:: yaml
 
