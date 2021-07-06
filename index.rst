@@ -12,3 +12,10 @@ Welcome to Package Delivery using Blockchain and ROS's documentation!
    pages/teb-planner
    pages/troubleshooting
    pages/references
+   pages/blockchain
+   pages/advantage-blockchain
+   pages/permissioned
+   pages/advantage-hyperledger
+   pages/getting-started
+   pages/fabcar
+   pages/blockchain-troubleshooting
