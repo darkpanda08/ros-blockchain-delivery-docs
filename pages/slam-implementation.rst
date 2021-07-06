@@ -1,7 +1,7 @@
 SLAM Implementation
 #####################
 
-In this section, we will look at how we implemented the SLAM in our project.
+In this section, we will look at how to implemented the SLAM in a ROS project and what we used in our project.
 
 Mapping
 ********
@@ -98,10 +98,10 @@ These options include (1) support for A∗, (2) toggling quadratic approximation
 
 .. seealso::
 
-    More information regarding ``navfn`` can be found in `ROS Wiki navfn <http://wiki.ros.org/navfn>`_ and for ``global planner`` can be found in `ROS Wiki Global Planner <http://wiki.ros.org/global_planner>`_
+    More information for ``navfn`` can be found in `ROS Wiki navfn <http://wiki.ros.org/navfn>`_ and for ``global planner`` can be found in `ROS Wiki Global Planner <http://wiki.ros.org/global_planner>`_
 
 Move Base
-----------
+===========
 
 The ``move_base`` node provides a ROS interface for configuring, running, and interacting with the navigation stack on a robot. The ``move_base`` package provides an implementation of an action that, given a goal in the world, will attempt to reach it with a mobile base.
 The ``move_base`` node links together a global and local planner to accomplish its global navigation task.
@@ -111,3 +111,10 @@ This node provides an implementation of the ``SimpleActionServer``, that takes i
 .. seealso::
 
     More information can be found in `ROS Wiki Move Base <http://wiki.ros.org/move_base>`_
+
+Recovery Behaviors
+====================
+
+ROS navigation has two recovery behaviors. They are ``clear costmap recovery`` and ``rotate recovery``. Clear costmap recovery is basically reverting the local costmap to have the same state as the global costmap. Rotate recovery is to recover by rotating 360 degrees in place.
+
+Sometimes rotate recovery will fail to execute due to rotation failure. At this point, the robot may just give up because it has tried all of its recovery behaviors - clear costmap and rotation.
