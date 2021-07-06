@@ -31,6 +31,8 @@ Each sample stores a position and orientation data representing the robot’s po
 Navigation
 ***********
 
+The ROS navigation stack is powerful for mobile robots to move from place to place reliably. The job of navigation stack is to produce a safe path for the robot to execute, by processing data from odometry, sensors and environment map.
+
 Costmaps
 =========
 
