@@ -8,7 +8,8 @@ Visual SLAM or vSLAM calculates the position and orientation of any robot with r
 
 It can be implemented at a low cost with relatively inexpensive cameras. Visual SLAM can use simple cameras (wide angle, fish-eye, and spherical cameras), compound eye cameras (stereo and multi cameras), and RGB-D cameras (depth and ToF cameras).
 
-Cameras can be used to detect landmarks as well since they provide a large volume of information. In addition, since cameras provide a large volume of information, they can be used to detect a landmarks (previously measured positions). Landmark detection can also be combined with graph-based optimization, achieving flexibility in SLAM implementation.
+Cameras can be used to detect landmarks as well since they provide a large volume of information. In addition, since cameras provide a large volume of information, they can be used to detect a landmarks (previously measured positions). 
+Landmark detection can also be combined with graph-based optimization, achieving flexibility in SLAM implementation.
 
 Monocular SLAM is when vSLAM uses a single camera as the only sensor, which makes it challenging to define depth. This can be solved by either detecting AR markers, checkerboards, or other known objects in the image for localization or by fusing the camera information with another sensor such as IMU, which can measure physical quantities such as velocity and orientation. 
 
