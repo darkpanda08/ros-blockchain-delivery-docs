@@ -20,7 +20,7 @@ Localization
 *************
 
 For localizing the robot in our environmnet, AMCL was used which is a probabilistic localization system for a robot moving in 2D. 
-It implements the adaptive Monte Carlo localization approach which uses a particle filter to track the pose of a robot against a known map.
+It implements the ``Adaptive Monte Carlo Localization`` approach which uses a particle filter to track the pose of a robot against a known map.
 
 Each sample stores a position and orientation data representing the robot’s pose. Particles are all sampled randomly initially. When the robot moves, particles are resampled based on their current state as well as robot’s action using recursive Bayesian estimation.
 
@@ -80,7 +80,7 @@ In our Implementation, we have used the global planner for the robot to plan the
 
 There are three global planners that adhere to ``nav core::BaseGlobal Planner interface:`` ``carrot planner``, ``navfn`` and ``global planner``.
 
-carrpt_planner
+carrot_planner
 ---------------
 
 It checks if the given goal is an obstacle, and if so it picks an alternative goal close to the original one, by moving back along the vector between the robot and the goal point. Eventually it passes this valid goal as a plan to the local planner or controller. 
@@ -99,3 +99,15 @@ These options include (1) support for A∗, (2) toggling quadratic approximation
 .. seealso::
 
     More information regarding ``navfn`` can be found in `ROS Wiki navfn <http://wiki.ros.org/navfn>`_ and for ``global planner`` can be found in `ROS Wiki Global Planner <http://wiki.ros.org/global_planner>`_
+
+Move Base
+----------
+
+The ``move_base`` node provides a ROS interface for configuring, running, and interacting with the navigation stack on a robot. The ``move_base`` package provides an implementation of an action that, given a goal in the world, will attempt to reach it with a mobile base.
+The ``move_base`` node links together a global and local planner to accomplish its global navigation task.
+
+This node provides an implementation of the ``SimpleActionServer``, that takes in goals containing ``geometry_msgs/PoseStamped`` messages. We can communicate with the ``move_base`` node over ROS directly, but the recommended way to send goals to ``move_base`` if we are tracking their status is by using the SimpleActionClient.
+
+.. seealso::
+
+    More information can be found in `ROS Wiki Move Base <http://wiki.ros.org/move_base>`_
