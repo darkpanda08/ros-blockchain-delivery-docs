@@ -22,8 +22,8 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = u'Package Delivery using Blockchain and ROS'
-copyright = u'2021, Yash Patil, Vineet Ranjan'
-author = u'Yash Patil, Vineet Ranjan'
+copyright = u'2021, Yash Patil, Vineet Ranjan, Pratham Goyal, Gaurav Konde'
+author = u'Yash Patil, Vineet Ranjan, Pratham Goyal, Gaurav Konde'
 
 # The short X.Y version
 version = u''
