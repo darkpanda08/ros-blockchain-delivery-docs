@@ -43,5 +43,11 @@ Why Xacro ?
 How We Created 
 ****************
 
-We started with the robot model provided by e-Yantra Team in eYRC Sahayak Bot Theme.
- 
+We started with the robot model provided by e-Yantra Team in eYRC Sahayak Bot Theme. The robot model had a UR5 arm mounted on it's top with a Robotiq 2F-85 gripper which is a mechanical gripper.
+The mechanical gripper was replaced by a custom designed vaccum gripper for proper pickup and place of objects.
+
+The following images shows the robot with the vaccum gripper moving with the package in it's arm.
+
+.. image:: ../_static/images/gripper.png
+  :width: 500
+  :alt: Robot with Vaccum Gripper
