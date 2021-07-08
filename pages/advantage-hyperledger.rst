@@ -20,6 +20,6 @@ Advantages of Hyperledger Fabric
 
 The combination of these differentiating design features makes Fabric one of the better performing platforms available today both in terms of transaction processing and transaction confirmation latency, and it enables privacy and confidentiality of transactions.
 
-Resources
-**********
-https://hyperledger-fabric.readthedocs.io/en/latest/whatis.html
+.. admonition:: Resources
+
+    https://hyperledger-fabric.readthedocs.io/en/latest/whatis.html

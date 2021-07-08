@@ -49,7 +49,7 @@ There are many benefits of permissioned blockchains which makes it most preferab
      -  Cost effective
    
 
-Resources
-**********
-https://101blockchains.com/permissioned-blockchain/
-https://hyperledger-fabric.readthedocs.io/en/latest/whatis.html
+.. admonition:: Resources
+
+    https://101blockchains.com/permissioned-blockchain/
+    https://hyperledger-fabric.readthedocs.io/en/latest/whatis.html

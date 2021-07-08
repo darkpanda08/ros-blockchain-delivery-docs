@@ -41,8 +41,8 @@ The easiest way to explain blockchain technology is through a fictional financia
 .. image:: ../_static/images/blockchain_work.jpg
   :alt: Working of Blockchain
 
-Resources
-*************
-* https://www.euromoney.com/learning/blockchain-explained/what-is-blockchain
-* https://www.youtube.com/watch?v=SSo_EIwHSd4
-* https://www.cbi.eu/market-information/outsourcing-itobpo/blockchain
+.. admonition:: Resources
+
+    * https://www.euromoney.com/learning/blockchain-explained/what-is-blockchain
+    * https://www.youtube.com/watch?v=SSo_EIwHSd4
+    * https://www.cbi.eu/market-information/outsourcing-itobpo/blockchain

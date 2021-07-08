@@ -29,6 +29,6 @@ Windows installation
 4. `WSL installation link and instructions <https://docs.microsoft.com/en-us/windows/wsl/install-win10>`_
 5. `go installation link and instructions <https://golang.org/doc/install>`_
 
-Resources
-**********
-https://hyperledger-fabric.readthedocs.io/en/latest/prereqs.html
+.. admonition:: Resources
+
+    https://hyperledger-fabric.readthedocs.io/en/latest/prereqs.html
