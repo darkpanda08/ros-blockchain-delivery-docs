@@ -9,6 +9,7 @@ Bring up the test network
 *************************
 
 First thing before making a blockchain application is to create a blockchain network.
+
 1. To bring up the network go inside test-network directory using ``cd fabric-samples/test-network`` command.
 2. From inside the test-network directory, run the following command to remove any containers or artifacts from any previous runs: ``./network.sh down``
 3. You can then **bring up the network** by issuing the following command. You will experience problems if you try to run the script from another directory: ``./network.sh up``
