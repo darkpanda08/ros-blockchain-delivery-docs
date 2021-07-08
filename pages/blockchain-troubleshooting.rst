@@ -13,7 +13,7 @@ The ports are being used by windows services. First stop those services, then af
 
 * Sometimes while running a command there is a **random issue** as shown below. This is due problem in WSL. The problem is similar to:
 
-.. code-block:: 
+.. code-block:: bash
 
     Stopping network
     Traceback (most recent call last):
