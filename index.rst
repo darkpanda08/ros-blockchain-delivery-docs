@@ -25,7 +25,6 @@ Deliverables
    pages/slam
    pages/teb-planner
    pages/troubleshooting
-   pages/references
 
 .. toctree::
    :maxdepth: 2

@@ -55,3 +55,11 @@ Block Diagram
 If we see the above block diagram, it explains how the SLAM Algorithm works altogether. It shows the main components of a Visual Odometry and filter based SLAM system. Odometry and the Camera/ Sensor data feed is taken by the robot. This data is then processed to estimate the State of Robot and also extract the Landmark.
 
 These data is then passed to the State Correction which works with the State Predition to effectively estimate the location of the robot.
+
+
+.. admonition:: Resources
+
+  * https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping
+  * https://www.mathworks.com/discovery/slam.html
+  * https://blogs.nvidia.com/blog/2019/07/25/what-is-simultaneous-localization-and-mapping-nvidia-jetson-isaac-sdk/
+  * https://geoslam.com/what-is-slam/
