@@ -44,3 +44,5 @@ Deliverables
    :caption: ROS and Blockchain Integration:
 
    pages/integrate_start
+   pages/api
+
