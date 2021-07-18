@@ -4,8 +4,8 @@ Simple 2-DoF Arm Using Gazebo Modelling
 Due to the system limitations, we also tried designing a simple 2 Degree of freedom arm to avoid using MoveIt.
 We used tried couple different methods,
 
-Desiging the arm in Fusion 360 and using fusion2urdf plugin
-------------------------------------------------------------
+Desiging the arm in Fusion 360
+-------------------------------
 
 .. image:: ../_static/images/fusion_gripper.png
   :width: 500
