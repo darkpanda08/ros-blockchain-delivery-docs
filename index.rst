@@ -16,6 +16,8 @@ Deliverables
 * To make an automated robust system on ROS which will work alongside Blockchain to deliver the vaccine.
 * To simulate the system designed for vaccine delivery inside the Gazebo Simulator.
 
+The documentation is divided into three parts as below:
+
 .. toctree::
    :maxdepth: 2
    :caption: ROS:
@@ -24,6 +26,8 @@ Deliverables
    pages/multiple-robot-models
    pages/slam
    pages/teb-planner
+   pages/simple-gripper
+   pages/getting-started-ros
    pages/troubleshooting
 
 .. toctree::
