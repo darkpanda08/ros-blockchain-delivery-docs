@@ -21,7 +21,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = u'Package Delivery using Blockchain and ROS'
+project = u'Vaccine Delivery using Blockchain in ROS/Gazebo Simulated Environment'
 copyright = u'2021, Yash Patil, Vineet Ranjan, Pratham Goyal, Gaurav Konde'
 author = u'Yash Patil, Vineet Ranjan, Pratham Goyal, Gaurav Konde'
 
@@ -132,7 +132,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'PackageDeliveryusingBlockchainandROS.tex', u'Package Delivery using Blockchain and ROS Documentation',
+    (master_doc, 'PackageDeliveryusingBlockchainandROS.tex', u'Vaccine Delivery using Blockchain in ROS/Gazebo Simulated Environment',
      u'Yash Patil, Vineet Ranjan', 'Pratham Goyal', 'Gaurav Konde', 'manual'),
 ]
 
@@ -142,7 +142,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'packagedeliveryusingblockchainandros', u'Package Delivery using Blockchain and ROS Documentation',
+    (master_doc, 'packagedeliveryusingblockchainandros', u'Vaccine Delivery using Blockchain in ROS/Gazebo Simulated Environment',
      [author], 1)
 ]
 
@@ -153,7 +153,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'PackageDeliveryusingBlockchainandROS', u'Package Delivery using Blockchain and ROS Documentation',
+    (master_doc, 'PackageDeliveryusingBlockchainandROS', u'Vaccine Delivery using Blockchain in ROS/Gazebo Simulated Environment',
      author, 'PackageDeliveryusingBlockchainandROS', 'One line description of project.',
      'Miscellaneous'),
 ]

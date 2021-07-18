@@ -1,5 +1,5 @@
-Welcome to Package Delivery using Blockchain and ROS's documentation!
-=====================================================================
+Welcome to Vaccine Delivery using Blockchain in ROS/Gazebo Simulated Environment's documentation!
+==================================================================================================
 
 About Project:
 ###############
