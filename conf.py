@@ -133,7 +133,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'PackageDeliveryusingBlockchainandROS.tex', u'Package Delivery using Blockchain and ROS Documentation',
-     u'Yash Patil, Vineet Ranjan', 'manual'),
+     u'Yash Patil, Vineet Ranjan', 'Pratham Goyal', 'Gaurav Konde', 'manual'),
 ]
 
 
