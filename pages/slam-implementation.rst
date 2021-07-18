@@ -69,8 +69,7 @@ Local Planner
 Local planner is used to find a suitable local plan at every instance. Using a map, the planner creates a kinematic trajectory for the robot to get from a start to a goal location. Along the way, the planner creates, at least locally around the robot, a value function, represented as a grid map.
 This value function encodes the costs of traversing through the grid cells. The controller's job is to use this value function to determine dx, dy, dtheta velocities to send to the robot.
 
-Local planners that adhere to nav core::BaseLocalPlanner interface are ``dwa local planner``, ``eband local planner`` and ``teb local planner``. They use different al-
-gorithms to generate velocity commands.
+Local planners that adhere to nav core::BaseLocalPlanner interface are ``dwa local planner``, ``eband local planner`` and ``teb local planner``. They use different algorithms to generate velocity commands.
 
 Global Planner
 ===============
